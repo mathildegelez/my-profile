@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+body {
+	background:#FFFBE9;
+	color:#361500;
+	font-family: 'League Gothic', sans-serif;
+	font-size: 17px;
+}
+h1 {
+	font-weight: 600;
+	color:#CEAB93;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: initial;
+}
+h2 {
+	color: #AD8B73;
+	font-size: 24px;
+	font-weight: 600;
+}
+h1, h2, h3 {
+	font-family: 'Smooch Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+	color:#AD8B73;
+	font-weight: 600;
+	font-family: 'League Gothic', sans-serif;
+}
+a:hover {
+	color:#floralwhite;
+}
+
+
+
+/* Custom design with class */
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+.card-white {
+	background-color:#FFFBE9;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color:burlywood;
+	color:#AD8B73;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color:#FFFBE9;
+	color:#AD8B73;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline i {
+	list-style: none;
+	font-size: 60px;
+	color:#E3CAA5;
+}
+
+.list-inline i:hover {
+	color: floralwhite;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 50px;
+}
